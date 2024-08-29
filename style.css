@@ -1,35 +1,31 @@
 /* Style for the todo list  */
 .todo-list {
-  list-style-type: none;
-  padding: 0;
+  list-style-type: none; /* Ilangin list featurenya */
+  padding: 0; /* Padding semua arah 0 */
 }
 
 .todo-list li {
-  display: flex;
-  align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 10px; /* Kasih jarak antar list */
 }
 
 /* Style for the input */
 .todo-input {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-bottom: 10px;
+  width: 100%; /* Width 100% dari parent container */
+  padding: 10px; /* Padding semua arah 0 */
+  border: 1px solid #ccc; /* Border dengan ketebalan 1px, tipe solid, warna #ccc */
+  border-radius: 4px; /* Border tidak memiliki ketebalan */
+  margin-bottom: 10px; /* Berikan jarak ke bawah dengan panjang 10px */
 }
 
 /* Style for the button */
 .todo-button {
-  background-color: #4caf50;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+  background-color: #4caf50; /* Background color kehijauan */
+  color: white; /* Warna text putih */
+  padding: 10px 20px; /* Passing vertikal 10px, padding horizontal 20px */
+  border: none; /* Border tidak memiliki ketebalan */
+  border-radius: 4px; /* Membuat pinggirannya memiliki radius, sehingga lebih bulat */
 }
 
 .todo-button:hover {
-  background-color: #45a049;
+  background-color: #45a049; /* Memberikan warna hijau lebih tua ketika di hover */
 }
